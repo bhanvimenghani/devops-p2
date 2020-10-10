@@ -1,0 +1,35 @@
+This tutorial explains the various aspects of the Docker Container service. Starting with the basics of Docker which focuses on the installation and configuration of Docker, it gradually moves on to advanced topics such as Networking and Registries. The last few chapters of this tutorial cover the development aspects of Docker and how you can get up and running on the development environments using Docker Containers.
+
+Audience
+This tutorial is meant for those who are interested in learning Docker as a container service. This product has spread like wildfire across the industry and is really making an impact on the development of new generation applications. So anyone who is interested in learning all the aspects of Docker should go through this tutorial.
+
+Prerequisites
+The prerequisite is that the readers should be familiar with the basic concepts of Windows and the various programs that are already available on the Windows operating system.
+To start the installation of Docker, we are going to use an Ubuntu instance. You can use Oracle Virtual Box to setup a virtual Linux instance, in case you don’t have it already.
+
+The following screenshot shows a simple Ubuntu server which has been installed on Oracle Virtual Box. There is an OS user named demo which has been defined on the system having entire root access to the sever.
+
+Demo Button
+To install Docker, we need to follow the steps given below.
+
+Step 1 − Before installing Docker, you first have to ensure that you have the right Linux kernel version running. Docker is only designed to run on Linux kernel version 3.8 and higher. We can do this by running the following command.
+
+uname
+This method returns the system information about the Linux system.
+
+Syntax
+uname -a
+Options
+a − This is used to ensure that the system information is returned.
+
+Return Value
+This method returns the following information on the Linux system −
+
+kernel name
+node name
+kernel release
+kernel version
+machine
+processor
+hardware platform
+operating system In addition, it would help if the readers have some exposure to Linux.
